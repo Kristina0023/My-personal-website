@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7b32f84b41.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">HOME</a> </li>
+            <li class="nav__item"><a href="#education" class="nav__link">EDUCATION</a> </li>
+            <li class="nav__item"><a href="#about" class="nav__link">ABOUT ME</a> </li>
+            <li class="nav__item"><a href="#projects" class="nav__link">PROJECTS</a> </li>
+        </ul>
+    </nav>
+</header>
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kristina Markovska</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="images/hi.jpg" alt="a picture of Kristina" class="intro__img">
+</section>
+
+<!-- Education -->
+<section class="my-education" id="education">
+    <h2 class="education__name education__name--details">My education</h2>
+    <div class="studies">
+        <div class="study">
+            <h3>Faculty of computer science and engineering FINKI, Ss. Cyril and Methodious, Skopje</h3>
+            <p>2016 - PRESENT</p>
+        </div> <!-- study -->
+        <div class="study">
+            <h3>HIGH SCHOOL “8 SEPTEMVRI” - TETOVO</h3>
+            <p>2012 - 2016</p>
+        </div> <!-- study -->
+    </div>
+
+    <a href="#projects" class="btn">Projects</a>
+</section>
+
+<!-- About me -->
+<section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Located in Skopje</p>
+
+    <div class="about-me__body">
+        <p>Student in the 4th year at Faculty of Computer Science and Engineering (FINKI) Motivated to learn new technologies and reliable on work conditions. I currently live and work in Skopje.</p>
+        <p>I am very good team worker, who is responsible and always on time. Trough technology I express my creativity. I love nature and enjoy hiking.</p>
+    </div>
+
+    <img src="images/ho.jpg" alt="image" class="about-me__img">
+</section>
+
+
+<!--Projects-->
+<section class="my-projects" id="projects">
+    <h2 class="section__title--work">Projects</h2>
+    <p class="section__subtitle--work">&lt my work &gt</p>
+
+    <div class="portfolio">
+        <!--Item1-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item1.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item2-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item2.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item3-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item3.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item4-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item4.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item5-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item5.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item6-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item6.png" alt="" class="portfolio__img">
+        </a>
+
+        <!--Item7-->
+        <a href="#" class="portfolio__item">
+            <img src="images/item7.png" alt="" class="portfolio__img">
+        </a>
+    </div>
+</section>
+
+
+<!--Footer-->
+<footer class="footer">
+<a href="mailto:markovskak02@gmail.com" class="footer-link">markovskak02@gmail.com</a>
+
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/kristina-markovska-090abb182/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/Kristina0023">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.instagram.com/kristina.markovska/">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+
+    </ul>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
+</html>
